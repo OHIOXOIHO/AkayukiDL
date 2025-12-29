@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Akayuki Assistant
 // @namespace    http://tampermonkey.net/
-// @version      1.6
+// @version      1.7
 // @description  Check anime availability in Akayuki bot on MAL and AniList.
 // @author       https://t.me/AkaAnimeBot
 // @match        https://myanimelist.net/*
