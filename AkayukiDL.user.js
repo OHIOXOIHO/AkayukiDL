@@ -464,13 +464,13 @@
         if (exists) {
             item.element.classList.add('status-exist');
             item.element.classList.remove('status-missing');
-            item.element.innerText = item.isBox ? '✅ DOWNLOAD' : 'DL';
+            item.element.innerText = item.isBox ? 'DOWNLOAD' : 'DL';
             item.element.title = "Download via Bot";
             if(item.isBox) item.element.style.backgroundColor = '#10b981';
         } else {
             item.element.classList.add('status-missing');
             item.element.classList.remove('status-exist');
-            item.element.innerText = item.isBox ? '❌ NOT FOUND' : (noMalId ? '?' : 'NA');
+            item.element.innerText = item.isBox ? 'NOT FOUND' : (noMalId ? '?' : 'NA');
             item.element.title = noMalId ? "No MAL ID" : "Not Found. Click to Copy Name.";
             if(item.isBox) item.element.style.backgroundColor = '#e11d48';
         }
